@@ -1,39 +1,39 @@
 {
-	"author" : "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
-	"name" : "zabbix-sender",
-	"description" : "A zabbix_sender wrapper.",
-	"version" : "0.2.0",
-	"contributors" : [
+	"author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+	"name": "zabbix-sender",
+	"description": "A zabbix_sender wrapper.",
+	"version": "0.3.0",
+	"contributors": [
 		"Dan Jenkins <dan.jenkins@holidayextras.com>",
 		"Pascal Pflaum <pascal@heutewirdnichtmehrgearbeitet.de>",
 		"Mark Terry <mark.terry@holidayextras.com>"
 	],
-	"repository" : {
-		"type" : "git",
-		"url" : "git://github.com/holidayextras/node-zabbix-sender.git"
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/holidayextras/node-zabbix-sender.git"
 	},
-	"main" : "./index",
-	"scripts" : {
-		"test" : "grunt unit"
+	"main": "./index",
+	"scripts": {
+		"test": "grunt unit"
 	},
-	"engines" : {
-		"node" : "*"
+	"engines": {
+		"node": "*"
 	},
-	"dependencies" : {},
-	"devDependencies" : {
-		"chai" : "1.9.2",
-		"grunt" : "^0.4.5",
-		"grunt-cli" : "^0.1.13",
-		"grunt-contrib-clean" : "^0.6.0",
-		"grunt-contrib-jshint" : "^0.10.0",
-		"grunt-jscoverage" : "^0.1.3",
-		"grunt-mocha-test" : "^0.12.1",
-		"mocha" : "^1.21.5",
-		"proxyquire" : "1.0.1",
-		"sinon" : "1.10.3",
-		"sinon-chai" : "2.5.0"
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "1.9.2",
+		"grunt": "^0.4.5",
+		"grunt-cli": "^0.1.13",
+		"grunt-contrib-clean": "^0.6.0",
+		"grunt-contrib-jshint": "^0.10.0",
+		"grunt-jscoverage": "^0.1.3",
+		"grunt-mocha-test": "^0.12.1",
+		"mocha": "^1.21.5",
+		"proxyquire": "1.0.1",
+		"sinon": "1.10.3",
+		"sinon-chai": "2.5.0"
 	},
-	"keywords" : [
+	"keywords": [
 		"zabbix",
 		"zabbix_sender"
 	]
