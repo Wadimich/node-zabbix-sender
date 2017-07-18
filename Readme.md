@@ -40,7 +40,7 @@ The ZabbixSender constructor takes an object which has the following defaults:
 * **server**: The zabbix server (IP or hostname) to use. Default: (zabbix default)
 * **port**: The zabbix server port to use. Default: (zabbix default)
 * **debug**: If set to true, the binary will not be called. Default : `false`
-* **log**: Output a message on the console, when data is send to the server. Default : `false`
+* **logger**: A [bunyan-compatible](https://www.npmjs.com/package/bunyan) logger object. Default: (a logger which discards all output).
 * **joinString**: String for concatenating nested object properties. Default: `.`
 
 ## License

@@ -11,7 +11,7 @@ describe('constructer()', function() {
 			config : '/etc/zabbix/zabbix_agentd.conf',
 			bin : binLocation,
 			debug : false,
-			log : false,
+			logger : ZabbixSender.nullLogger,
 			hostname : '-',
 			port : undefined,
 			server : undefined,
