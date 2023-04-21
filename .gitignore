@@ -3,3 +3,4 @@ npm-debug.log
 /lib-cov
 
 /test/coverage.html
+.idea
